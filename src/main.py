@@ -61,5 +61,5 @@ if __name__ == "__main__":
     if carro1.odometro > carro2.odometro:
         print(f'Carro 1 chegou primeiro {carro1.odometro} Km rodados.')
     else:
-        print(f'Carro 2 chegou primeiro {carro2.odometro} Km rodados.')
+        print(f'Carro 2 chegou primeiro {carro2.odometro} Km rodados..')
 

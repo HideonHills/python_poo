@@ -21,7 +21,7 @@ class Carro:
         if not self.motor_on and self.tanque > 0:
             self.motor_on = True
         else:
-            raise Exception("Erro: Motor já ligado ou tanque vazio!")
+            raise Exception("Erro: Motor já ligado ou tanque vazio!!")
 
     def acelerar(self, velocidade : float, tempo : float):
         if self.motor_on and self.tanque > 0:
